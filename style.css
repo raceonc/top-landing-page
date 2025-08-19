@@ -1,0 +1,26 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.section-dark {
+  background-color: #1f2937;
+}
+
+.header {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-nav a {
+  color: white;
+  text-decoration: none;
+  text-decoration-color: none;
+  margin: 10px;
+}
+
+.hero {
+  background-color: #1f2937;
+  color: white;
+}
