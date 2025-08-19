@@ -4,23 +4,33 @@ body {
 
 .section-dark {
   background-color: #1f2937;
+  padding-top: 20px;
+}
+
+.header,
+.hero {
+  color: white;
+  display: flex;
+  padding: 0px 400px;
 }
 
 .header {
-  color: white;
-  display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .header-nav a {
   color: white;
   text-decoration: none;
-  text-decoration-color: none;
-  margin: 10px;
+  margin-left: 10px;
+}
+
+.header-logo {
+  font-size: large;
+  font-weight: bold;
 }
 
 .hero {
-  background-color: #1f2937;
-  color: white;
+  padding-top: 20px;
+  align-items: center;
+  justify-content: space-between;
 }
