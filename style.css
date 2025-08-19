@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -5,23 +7,28 @@ body {
 .section-dark {
   background-color: #1f2937;
   padding-top: 20px;
+  padding-bottom: 60px;
 }
 
 .header,
 .hero {
   color: white;
   display: flex;
-  padding: 0px 400px;
+  padding: 0px 5%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .header {
   justify-content: space-between;
+  flex-shrink: 0;
 }
 
 .header-nav a {
   color: white;
   text-decoration: none;
   margin-left: 10px;
+  flex-shrink: 0;
 }
 
 .header-logo {
@@ -30,7 +37,45 @@ body {
 }
 
 .hero {
-  padding-top: 20px;
-  align-items: center;
+  padding-top: 40px;
   justify-content: space-between;
+}
+
+.hero-main-text,
+.hero-placeholder {
+  flex: 0 0 50%;
+}
+
+.hero-main-text {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.hero-text p {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-right: 70px;
+}
+
+.hero-main-text,
+.hero-text p,
+.hero-text button {
+  margin: 0;
+}
+
+.hero-placeholder {
+  /* flex-basis: 50%; */
+  background-color: grey;
+  text-align: center;
+  align-content: center;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.sign-up-top {
+  width: 120px;
 }
