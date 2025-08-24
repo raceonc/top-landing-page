@@ -79,3 +79,32 @@ body {
 .sign-up-top {
   width: 120px;
 }
+
+.random-information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.random-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.random-image {
+  display: flex;
+  padding: 0px;
+  max-width: 1200px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.random-image img {
+  border: 1px solid lightblue;
+}
+
+.random-image p {
+  max-width: 25%;
+  text-align: center;
+}
