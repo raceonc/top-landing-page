@@ -89,13 +89,13 @@ body {
 .random-bottom {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .random-image {
   display: flex;
   padding: 0px;
-  max-width: 1200px;
+  width: 250px;
   flex-direction: column;
   align-items: center;
 }
@@ -105,6 +105,11 @@ body {
 }
 
 .random-image p {
-  max-width: 25%;
   text-align: center;
+  font-size: small;
+}
+
+.random-image img,
+.random-image p {
+  width: 150px;
 }
